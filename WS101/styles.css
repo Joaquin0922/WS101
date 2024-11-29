@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('qcu.png') no-repeat center center/cover; /* Replace 'background.jpg' with the actual image URL */
+}
+
+.header {
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fbc02d;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 300px;
+}
+
+.login-box h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    font-size: 14px;
+    color: #555;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button {
+    background-color: #fbc02d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-box button:hover {
+    background-color: #e6a800;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #1976d2;
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    height: 45px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+}
+
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+.white{
+background-color: white;
+  padding: 20px 0;
+  display: flex;
+  padding-left: 40px;
+  border: 2px solid #000;
+
+}
+.white img{
+    height: 50px;
+}
+.font{
+    font-size: 50px;
+    color: #e6a800;
+    border: 1px;
+}
